@@ -76,7 +76,7 @@
                     android:layout_marginRight="15dp"
                     android:background="@color/common_google_signin_btn_text_dark_default"
                     android:contentDescription="@string/brush"
-                    android:src="@drawable/pen" />
+                    android:src="@drawable/brush" />
 
                 <ImageButton
                     android:id="@+id/erase_btn"
