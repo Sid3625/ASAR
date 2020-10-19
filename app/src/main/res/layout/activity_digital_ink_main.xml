@@ -117,13 +117,14 @@
                     android:layout_marginEnd="15dp"
                     android:layout_marginRight="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/exit"
+                    android:background="@drawable/delete"
                     android:onClick="clearClick"
                     android:paddingLeft="50dp"
                     android:paddingRight="50dp"
                     android:src="@drawable/clear" />
 
             </LinearLayout>
+
             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
                 android:id="@+id/Languages_Spinner"
                 android:layout_width="fill_parent"
@@ -140,13 +141,12 @@
     </FrameLayout>
 
 
-
     <com.google.mlkit.samples.vision.digitalink.DrawingView
         android:id="@+id/drawing_view"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_weight="1"
-        android:background="#80FFFFFF" />
+        android:background="@android:color/background_light" />
 
     <LinearLayout
         android:id="@+id/paint_colors"
